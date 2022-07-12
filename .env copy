@@ -1,5 +1,5 @@
 # DB Config
-# DATABASE_URL = "DATABASE_TYPE://USERNAME:PASSWORD@URL:PORT/DATABASE_NAME?schema=public"
+# DATABASE_URL = "DATABASE_TYPE://USERNAME:PASSWORD@HOST:PORT/DATABASE_NAME?schema=public"
 DATABASE_URL="postgresql://postgres:greg12345@localhost:5432/booking-system?schema=public"
 
 # Configuration Helpers
