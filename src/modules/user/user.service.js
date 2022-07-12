@@ -77,7 +77,7 @@ class UserService {
                 })
             }
 
-            const selectedRole = await prisma.role.findFirst({
+            const selectedRole = await prisma.role.findFirstOrThrow({
                 where: {
                     name: {
                         equals: role,
